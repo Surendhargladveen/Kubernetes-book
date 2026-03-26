@@ -44,7 +44,7 @@ spec:
   - port: 80
     nodePort: 30001
 
-# Hey buddy I launch the ec2 instance and install the kubeadm. 
+# Hey buddy I launched the ec2 instance and install the kubeadm using kubeadm.sh script. 
 # Just apply the yaml file and check the pods, If it stuck please check node has tainted or not. If it is tainted then remove the taint and check the pods again.
 # Use ec2 public ip and nodeport to access the nginx server.
 # Now you can change the html file in the git repo and check the changes in nginx server. It will automatically sync the changes to nginx server.

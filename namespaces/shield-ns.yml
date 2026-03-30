@@ -3,10 +3,10 @@
 kind: Namespace
 apiVersion: v1
 metadata:
-  name: surendhar
+  name: shield
   labels:
     env: marvel
 
 
 # This is imperative cmd to create a namespace in Kubernetes.
-# kubectl create ns surendhar 
+# kubectl create ns shield

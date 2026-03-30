@@ -1,6 +1,12 @@
+# This is declarative code to create a namespace in Kubernetes.
+
 kind: Namespace
 apiVersion: v1
 metadata:
   name: surendhar
   labels:
     env: marvel
+
+
+# This is imperative cmd to create a namespace in Kubernetes.
+# kubectl create ns surendhar 
